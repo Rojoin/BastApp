@@ -5,8 +5,21 @@ using UnityEngine.SceneManagement;
 public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
+
+    public static AudioManager instance;
     void Awake()
     {
+        DontDestroyOnLoad(gameObject);
+
+        if (instance == null)
+        {
+            instance = this;
+        } else
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         foreach (Sound sound in sounds)
         {
             sound.source = gameObject.AddComponent<AudioSource>();
@@ -18,13 +31,12 @@ public class AudioManager : MonoBehaviour
     }
 
     void Start()
-    {
-        Debug.Log(SceneManager.GetAllScenes());
+    {   
         Play("MenuTheme");
     }
 
     // Update is called once per frame
-    void Play(string name)
+    public void Play(string name)
     {
         Sound sound = Array.Find<Sound>(sounds, sound => sound.name == name);
         if (sound == null)
