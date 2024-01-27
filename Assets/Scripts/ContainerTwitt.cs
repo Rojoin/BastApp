@@ -25,8 +25,8 @@ public class ContainerTwitt : MonoBehaviour
 
     [SerializeField] private int imageSpacing = 200;
     [SerializeField] private Vector2 defaultTwittSize;
-    [SerializeField] private Toggle isLikedButton;
-    [SerializeField] private Toggle isRetwitedButton;
+    [SerializeField] public Toggle isLikedButton;
+    [SerializeField] public Toggle isRetwitedButton;
     private bool isLiked;
     private bool isRetwited;
     private RectTransform _transform;
@@ -36,6 +36,7 @@ public class ContainerTwitt : MonoBehaviour
         ChangeTwitt();
     }
 
+   
 
     private void ChangeTwitt()
     {
