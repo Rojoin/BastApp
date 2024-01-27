@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   userName: Pepito69
   userIcon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  prompt: Koscu es un vende patria!!!
+  prompt: Koscu te amo
   imageTwitt: {fileID: 0}
   followPoints: 15
   repPoints: 45
