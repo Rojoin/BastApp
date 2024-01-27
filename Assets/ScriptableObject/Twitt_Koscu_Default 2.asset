@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ccf91412e948029167eacf111ff177, type: 3}
+  m_Name: Twitt_Koscu_Default 2
+  m_EditorClassIdentifier: 
+  userName: TuVieja2
+  userIcon: {fileID: 21300000, guid: a678a41a87ee9eb4e83480839a33c59a, type: 3}
+  prompt: Koscu es un vende patria!!!
+  imageTwitt: {fileID: 21300000, guid: caf49732cd186164c87053f5fd4e796d, type: 3}
+  followPoints: 15
+  repPoints: 45

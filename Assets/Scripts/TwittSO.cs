@@ -1,7 +1,9 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 [CreateAssetMenu(menuName = "Create Twitt", fileName = "Twitt", order = 0)]
-public class Twitt : ScriptableObject
+[Serializable]
+public class TwittSO : ScriptableObject
 {
     [Header("User")]
     public string userName;

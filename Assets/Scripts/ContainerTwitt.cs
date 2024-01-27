@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -12,29 +11,52 @@ public class ContainerTwitt : MonoBehaviour
     [SerializeField] public TextMeshProUGUI userName;
     [SerializeField] public TextMeshProUGUI textContainer;
     [SerializeField] private Image imageTwitt;
-    [SerializeField] private Twitt twitt;
+    [SerializeField] public TwittSO _twittSo;
+
+    public TwittSO twittSo
+    {
+        get => _twittSo;
+        set
+        {
+            _twittSo = value;
+            ChangeTwitt();
+        }
+    }
+
     [SerializeField] private int imageSpacing = 200;
     [SerializeField] private Vector2 defaultTwittSize;
-
+    [SerializeField] private Toggle isLikedButton;
+    [SerializeField] private Toggle isRetwitedButton;
+    private bool isLiked;
+    private bool isRetwited;
     private RectTransform _transform;
 
     private void OnValidate()
     {
+        ChangeTwitt();
+    }
+
+
+    private void ChangeTwitt()
+    {
         _transform = GetComponent<RectTransform>();
-        userIcon.sprite = twitt.userIcon;
-        userName.text = twitt.userName;
-        textContainer.text = twitt.prompt;
-        if (twitt.imageTwitt != null)
+        userIcon.sprite = twittSo.userIcon;
+        userName.text = twittSo.userName;
+        textContainer.text = twittSo.prompt;
+        if (twittSo.imageTwitt != null)
         {
-            imageTwitt.sprite = twitt.imageTwitt;
-            _transform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,defaultTwittSize.y + imageSpacing);
+            imageTwitt.sprite = twittSo.imageTwitt;
+            _transform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, defaultTwittSize.y + imageSpacing);
             imageTwitt.gameObject.SetActive(true);
         }
         else
         {
             imageTwitt.sprite = null;
             imageTwitt.gameObject.SetActive(false);
-            _transform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,defaultTwittSize.y);
+            _transform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, defaultTwittSize.y);
         }
+
+        isLiked = false;
+        isRetwited = false;
     }
 }
