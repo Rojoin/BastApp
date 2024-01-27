@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Create Twitt", fileName = "Twitt", order = 0)]
+[CreateAssetMenu(menuName = "Create TwittSO", fileName = "Twitt", order = 0)]
 [Serializable]
 public class TwittSO : ScriptableObject
 {
