@@ -45,8 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: MenuTheme
-    clip: {fileID: 8300000, guid: 8596e529ecd03b44787cc9f1a4106a91, type: 3}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 59601b385a2e0c34aa7f7482e80f9e6b, type: 3}
     volume: 0.768
     pitch: 1
     loop: 1
@@ -80,4 +80,22 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     loop: 0
+    source: {fileID: 0}
+  - name: IntroductionTheme
+    clip: {fileID: 8300000, guid: 98daba4dbca7db641896e6d8044a5227, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: CommanderEnding
+    clip: {fileID: 8300000, guid: bdd75fb945e5f6541977f6b3142992f6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SkyEnding
+    clip: {fileID: 8300000, guid: 66d46804aafc2b947ba92a1cd48ee36c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
     source: {fileID: 0}
