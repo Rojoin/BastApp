@@ -19,6 +19,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fe5334ba990f54544aae14bc606f6e86, type: 2}
   - {fileID: 11400000, guid: 010c21bcee9d8db4fadcd20c53bf37b3, type: 2}
   possibleResponses:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 03bd73b1a6df30c4dbfe3410a6528b1c, type: 2}
+  - {fileID: 11400000, guid: 9b3ce2e4af7d8384c980a77f989f4b1e, type: 2}
+  - {fileID: 11400000, guid: 8aa8ec5c1a7ecef4ca3d5959deebb278, type: 2}
+  hasBeenTwitted: 0
