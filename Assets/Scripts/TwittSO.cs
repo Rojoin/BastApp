@@ -14,4 +14,14 @@ public class TwittSO : ScriptableObject
     [Header("Points")]
     public int followPoints;
     public int repPoints;
+
+    [Header("Variables")] 
+    public bool isLiked = false;
+    public bool isRetwitted = false;
+
+    public void Reset()
+    {
+        isLiked = false;
+        isRetwitted = false;
+    }
 }

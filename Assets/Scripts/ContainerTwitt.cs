@@ -27,8 +27,6 @@ public class ContainerTwitt : MonoBehaviour
     [SerializeField] private Vector2 defaultTwittSize;
     [SerializeField] public Toggle isLikedButton;
     [SerializeField] public Toggle isRetwitedButton;
-    private bool isLiked;
-    private bool isRetwited;
     private RectTransform _transform;
 
     private void OnValidate()
@@ -39,6 +37,15 @@ public class ContainerTwitt : MonoBehaviour
         }
     }
 
+    public void Awake()
+    {
+        isLikedButton.onValueChanged.AddListener(ChangeLikeStatus);
+        isRetwitedButton.onValueChanged.AddListener(ChangeRetwittStatus);
+    }    public void OnDisable()
+    {
+        isLikedButton.onValueChanged.RemoveListener(ChangeLikeStatus);
+        isRetwitedButton.onValueChanged.RemoveListener(ChangeRetwittStatus);
+    }
 
     public void ChangeTwitt()
     {
@@ -58,8 +65,14 @@ public class ContainerTwitt : MonoBehaviour
             imageTwitt.gameObject.SetActive(false);
             _transform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, defaultTwittSize.y);
         }
+        
+    }
 
-        isLiked = false;
-        isRetwited = false;
+    private void ChangeLikeStatus(bool state)
+    {
+        twittSo.isLiked = state;
+    }private void ChangeRetwittStatus(bool state)
+    {
+        twittSo.isRetwitted = state;
     }
 }
