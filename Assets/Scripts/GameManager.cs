@@ -1,11 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-enum Endings
+public enum Endings
 {
-    GOOD_ENDING = 0,
-    BAD_ENDING,
+    MIAMI_ENDING = 0,
+    COMANDANTE_ENDING,
     LOST
 }
 
@@ -16,7 +17,8 @@ public class GameManager : MonoBehaviour
     private int currentSubs = 0;
     private int currentRep = 50; // Initialize currentRep to 50
     private bool lost = false;
-
+    public EndingSelector endingSelector;
+    public List<Tendency> tendencies;
     void Start()
     {
         //// End game logic
@@ -26,21 +28,30 @@ public class GameManager : MonoBehaviour
         //PrintInformation();
     }
 
-    Endings GetEnding()
+    private void OnDisable()
+    {
+        foreach (var tendency in tendencies)
+        {
+            tendency.hasBeenTwitted = false;
+        }
+    }
+
+    public void GetEnding()
     {
         if (IsGoodEnding())
         {
-            return Endings.GOOD_ENDING;
+            endingSelector.ending = Endings.MIAMI_ENDING;
         }
         else if (IsBadEnding())
         {
-            return Endings.BAD_ENDING;
+            endingSelector.ending = Endings.COMANDANTE_ENDING;
         }
         else if (Lost())
         {
-            return Endings.LOST;
+            endingSelector.ending = Endings.LOST;
         }
-        return Endings.LOST;
+
+        endingSelector.ending = Endings.LOST;
     }
 
     void PrintInformation()
