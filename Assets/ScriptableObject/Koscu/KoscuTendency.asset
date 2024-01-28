@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd81b3e0b72ab5744a2c38f7e5fb1ed3, type: 3}
+  m_Name: KoscuTendency
+  m_EditorClassIdentifier: 
+  tendencyName: Koscu
+  relatedTweets:
+  - {fileID: 11400000, guid: d5db0941a11dc5a41b3942f30737673a, type: 2}
+  - {fileID: 11400000, guid: cde05a785a8f5ec40b98cac7840b9572, type: 2}
+  - {fileID: 11400000, guid: 0836ac32955bf874d9a56ddec61f4cf2, type: 2}
+  possibleResponses:
+  - {fileID: 11400000, guid: 220917f484ab29c4e97e3c4643b379a4, type: 2}
+  - {fileID: 11400000, guid: 2c57b60ca3c64694c96fc7df45c0e023, type: 2}
+  - {fileID: 11400000, guid: cbb095db3877fa64dbb1393fe2def5d7, type: 2}
