@@ -65,7 +65,9 @@ public class ContainerTwitt : MonoBehaviour
             imageTwitt.gameObject.SetActive(false);
             _transform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, defaultTwittSize.y);
         }
-        
+
+        isLikedButton.isOn = false;
+        isRetwitedButton.isOn = false;
     }
 
     private void ChangeLikeStatus(bool state)

@@ -11,8 +11,7 @@ public class TendencyObject : MonoBehaviour
     [SerializeField] private TextMeshProUGUI tendencyText;
     [SerializeField] public UnityEvent<Tendency> isTendencyChoose;
 
-  
-
+    
     private void Awake()
     {
         button.onClick.AddListener(PressButton);
