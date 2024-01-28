@@ -96,6 +96,8 @@ public class CanvasManager : MonoBehaviour
 
     private void ShowTendencies()
     {
+        gameManager.currentSubs = resultScreen.CurrentFollowers;
+        gameManager.currentRep = resultScreen.CurrentReputation;
         SetCanvasVisibility(resultsScreenCanvas,false);
         _tendencyManager.Init();
     }

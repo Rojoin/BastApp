@@ -333,6 +333,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Koscu te amo
       objectReference: {fileID: 0}
+    - target: {fileID: 3751576987013678823, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
+      propertyPath: m_fontSize
+      value: 112.25
+      objectReference: {fileID: 0}
     - target: {fileID: 3960451882397529812, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -340,14 +344,6 @@ PrefabInstance:
     - target: {fileID: 4188338059029527890, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
       propertyPath: _twittSo
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4188338059029527890, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
-      propertyPath: defaultTwittSize.x
-      value: 800
-      objectReference: {fileID: 0}
-    - target: {fileID: 4188338059029527890, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
-      propertyPath: defaultTwittSize.y
-      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 5458519621139974654, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
       propertyPath: m_text
@@ -641,6 +637,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Koscu te amo
       objectReference: {fileID: 0}
+    - target: {fileID: 3751576987013678823, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
+      propertyPath: m_fontSize
+      value: 112.25
+      objectReference: {fileID: 0}
     - target: {fileID: 3960451882397529812, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -648,14 +648,6 @@ PrefabInstance:
     - target: {fileID: 4188338059029527890, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
       propertyPath: _twittSo
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4188338059029527890, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
-      propertyPath: defaultTwittSize.x
-      value: 800
-      objectReference: {fileID: 0}
-    - target: {fileID: 4188338059029527890, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
-      propertyPath: defaultTwittSize.y
-      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 5458519621139974654, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
       propertyPath: m_text
@@ -793,7 +785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3751576987013678823, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
       propertyPath: m_fontSize
-      value: 18.6
+      value: 35.6
       objectReference: {fileID: 0}
     - target: {fileID: 3960451882397529812, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
       propertyPath: m_Sprite
@@ -802,14 +794,6 @@ PrefabInstance:
     - target: {fileID: 4188338059029527890, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
       propertyPath: _twittSo
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4188338059029527890, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
-      propertyPath: defaultTwittSize.x
-      value: 800
-      objectReference: {fileID: 0}
-    - target: {fileID: 4188338059029527890, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
-      propertyPath: defaultTwittSize.y
-      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 5458519621139974654, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
       propertyPath: m_text
@@ -944,6 +928,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Koscu te amo
       objectReference: {fileID: 0}
+    - target: {fileID: 3751576987013678823, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
+      propertyPath: m_fontSize
+      value: 112.25
+      objectReference: {fileID: 0}
     - target: {fileID: 3960451882397529812, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -951,14 +939,6 @@ PrefabInstance:
     - target: {fileID: 4188338059029527890, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
       propertyPath: _twittSo
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4188338059029527890, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
-      propertyPath: defaultTwittSize.x
-      value: 800
-      objectReference: {fileID: 0}
-    - target: {fileID: 4188338059029527890, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
-      propertyPath: defaultTwittSize.y
-      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 5458519621139974654, guid: a3794cb69ac2d2147b3da6c61ab5c0a7, type: 3}
       propertyPath: m_text
