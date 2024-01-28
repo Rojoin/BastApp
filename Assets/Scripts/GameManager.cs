@@ -88,8 +88,7 @@ public class GameManager : MonoBehaviour
             AudioManager.instance.PlayTheme("SkyEnding");
             endingSelector.ending = Endings.LOST;
         }
-
-        endingSelector.ending = Endings.LOST;
+        
         LevelManager.Instance.changeScene("Ending");
     }
 
