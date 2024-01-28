@@ -38,7 +38,7 @@ public class ContainerTwitt : MonoBehaviour
 
    
 
-    private void ChangeTwitt()
+    public void ChangeTwitt()
     {
         _transform = GetComponent<RectTransform>();
         userIcon.sprite = twittSo.userIcon;
