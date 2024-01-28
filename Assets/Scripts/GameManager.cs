@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,7 +18,7 @@ public class GameManager : MonoBehaviour
     private int currentRep = 50; // Initialize currentRep to 50
     private bool lost = false;
     public EndingSelector endingSelector;
-
+    public List<Tendency> tendencies;
     void Start()
     {
         //// End game logic
@@ -25,6 +26,14 @@ public class GameManager : MonoBehaviour
 
         //// Print information to the console
         //PrintInformation();
+    }
+
+    private void OnDisable()
+    {
+        foreach (var tendency in tendencies)
+        {
+            tendency.hasBeenTwitted = false;
+        }
     }
 
     public void GetEnding()
