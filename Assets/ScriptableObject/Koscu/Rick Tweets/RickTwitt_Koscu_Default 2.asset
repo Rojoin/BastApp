@@ -16,7 +16,7 @@ MonoBehaviour:
   userIcon: {fileID: 21300000, guid: 51d59ef2b2655114a966b3edd3a47c70, type: 3}
   prompt: "FELIZ CUMPLEA\xD1OS MARICON!!!! S\xD3PLAME BIEN LA VELA!!!!! JAJAJA"
   imageTwitt: {fileID: 0}
-  followPoints: 200
+  followPoints: 100
   repPoints: 10
   isLiked: 0
   isRetwitted: 0
