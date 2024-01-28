@@ -7,10 +7,11 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance;
 
+
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
-
+        Screen.SetResolution(567, 1008, false);
         if(Instance == null)
         {
             Instance = this;
