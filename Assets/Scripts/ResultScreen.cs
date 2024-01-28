@@ -32,6 +32,8 @@ namespace DefaultNamespace
             CheckTwitts(currentTwitt.posibleTwitts);
             arrow.sprite = previousRep <= CurrentReputation ? arrowUp : arrowDown;
             var letter = CurrentFollowers >= maxFollowers ? "M" : "K";
+            Debug.Log(CurrentFollowers);
+            Debug.Log(CurrentReputation);
             var follownumber = $"{CurrentFollowers}{letter}";
             followersNumber.text = follownumber;
             yield return new WaitForSeconds(numberUntilChange);

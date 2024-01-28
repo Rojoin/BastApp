@@ -10,4 +10,10 @@ public class ButtonsManager : MonoBehaviour
         FindAnyObjectByType<AudioManager>().Play("click");
         FindAnyObjectByType<LevelManager>().changeScene(scene);
     }
+
+    public void changeTheme(string theme)
+    {
+        AudioManager.instance.StopCurrentTheme();
+        AudioManager.instance.PlayTheme(theme);
+    }
 }

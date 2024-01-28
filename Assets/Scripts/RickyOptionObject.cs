@@ -21,6 +21,11 @@ public class RickyOptionObject : MonoBehaviour
         isTwittChoose.Invoke(TwittSo);
     }
 
+    private void OnEnable()
+    {
+        tendencyText.text = TwittSo.optionPrompt;
+    }
+
     private void OnDisable()
     {
         isTwittChoose.RemoveAllListeners();

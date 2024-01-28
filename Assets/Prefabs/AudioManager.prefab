@@ -99,3 +99,21 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     source: {fileID: 0}
+  - name: GoodEnding
+    clip: {fileID: 8300000, guid: ee11369fc3e84994098dd37a3dd4420a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: KarmaUp
+    clip: {fileID: 8300000, guid: a3f573ae874177a4f807f3d2162c9d1e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: KarmaDown
+    clip: {fileID: 8300000, guid: 67373735a044fb24ca78fe192b01d9f7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}

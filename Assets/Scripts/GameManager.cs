@@ -19,7 +19,6 @@ public class GameManager : MonoBehaviour
     private bool lost = false;
     public EndingSelector endingSelector;
 
-    public string SceneName;
     public List<Tendency> allTendencies;
 
     
@@ -72,21 +71,26 @@ public class GameManager : MonoBehaviour
 
     public void GetEnding()
     {
+        AudioManager.instance.StopCurrentTheme();
+        Debug.Log("END SUBS: " + currentSubs + ", END REP: " + currentRep);
         if (IsGoodEnding())
         {
+            AudioManager.instance.PlayTheme("GoodEnding");
             endingSelector.ending = Endings.MIAMI_ENDING;
         }
         else if (IsBadEnding())
         {
+            AudioManager.instance.PlayTheme("CommanderEnding");
             endingSelector.ending = Endings.COMANDANTE_ENDING;
         }
         else if (Lost())
         {
+            AudioManager.instance.PlayTheme("SkyEnding");
             endingSelector.ending = Endings.LOST;
         }
 
         endingSelector.ending = Endings.LOST;
-        LevelManager.Instance.changeScene(SceneName);
+        LevelManager.Instance.changeScene("Ending");
     }
 
     void PrintInformation()
