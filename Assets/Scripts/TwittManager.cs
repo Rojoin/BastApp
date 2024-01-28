@@ -1,19 +1,11 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class TwittManager : MonoBehaviour
+public abstract class TwittManager : MonoBehaviour
 {
-    [SerializeField] private List<ContainerTwitt> twittsContainer;
-    [SerializeField] public List<TwittSO> TwittsToShow;
+    [SerializeField] protected List<ContainerTwitt> twittsContainer;
+    //[SerializeField] public Tendency tendency;
 
     [ContextMenu("Update Twitts")]
-    public void UpdateTwitts()
-    {
-        for (int i = 0; i < twittsContainer.Count; i++)
-        {
-            twittsContainer[i].twittSo = TwittsToShow[i];
-            twittsContainer[i].ChangeTwitt();
-        }
-    }
-
+    public abstract void UpdateTwitts();
 }

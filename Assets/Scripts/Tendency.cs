@@ -10,4 +10,6 @@ public class Tendency : ScriptableObject
     public List<TwittSO> relatedTweets = new List<TwittSO>();
     [Header("Possible Responses")]
     public List<RickTwittSO> possibleResponses = new List<RickTwittSO>();
+    [Header("Status")]
+    public bool hasBeenTwitted = false;
 }
