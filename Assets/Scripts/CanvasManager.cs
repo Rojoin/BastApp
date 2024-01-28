@@ -68,18 +68,19 @@ public class CanvasManager : MonoBehaviour
     private void ShowSelectTwitt()
     {
         SetCanvasVisibility(selectTwittCanvas, true);
-        _selectTwitt.gameObject.SetActive(true);
+        _selectTwitt.Init();
         FindObjectOfType<AudioManager>().Play("click");
     }
 
     private void ShowTwitsInResponse(RickTwittSO currentRickyTwit)
     {
+        _selectTwitt.Disable();
         _twittsInResponseManager.currentTwitt = currentRickyTwit;
+        SetCanvasVisibility(twittsInTendecyCanvas, false);
         SetCanvasVisibility(selectTwittCanvas, false);
         SetCanvasVisibility(twittsInResponseCanvas, true);
         _twittsInResponseManager.gameObject.SetActive(true);
         _twittsInResponseManager.UpdateTwitts();
-        _selectTwitt.gameObject.SetActive(false);
     }
 
     private void ShowResults()
@@ -96,6 +97,7 @@ public class CanvasManager : MonoBehaviour
     private void ShowTendencies()
     {
         SetCanvasVisibility(resultsScreenCanvas,false);
+        _tendencyManager.Init();
     }
 
     private void SetCanvasVisibility(CanvasGroup canvas, bool state)

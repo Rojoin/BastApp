@@ -12,23 +12,39 @@ public class TendencyManager : MonoBehaviour
 
     private void Awake()
     {
-        if (prefabTendecy.Count < 0)
+        Init();
+    }
+
+    public void Init()
+    {
+   
+
+        var counter = 0;
+        foreach (var tendencyObject in prefabTendecy)
         {
-            activateEnding.Invoke();
-        }
-        else
-        {
-            foreach (var tendencyObject in prefabTendecy)
+            if (tendencyObject != null)
             {
                 if (tendencyObject.tendecy.hasBeenTwitted)
                 {
                     Destroy(tendencyObject.gameObject);
+                    counter++;
                 }
                 else
                 {
                     tendencyObject.isTendencyChoose.AddListener(SetCurrentTendency);
                 }
             }
+            else
+            {
+                counter++;
+                Debug.Log(counter);
+            }
+        }
+
+        if (counter == prefabTendecy.Count)
+        {
+            activateEnding.Invoke();
+            Debug.Log("Ending");
         }
     }
 

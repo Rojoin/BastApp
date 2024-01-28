@@ -10,7 +10,8 @@ public class TwittChooser : MonoBehaviour
     [SerializeField] private List<RickyOptionObject> responseButton;
     public UnityEvent<RickTwittSO> onTwittChoosed;
 
-    private void Awake()
+
+    public void Init()
     {
         for (int i = 0; i < _tendency.possibleResponses.Count; i++)
         {
@@ -19,6 +20,18 @@ public class TwittChooser : MonoBehaviour
             responseButton[i].gameObject.SetActive(true);
         }
     }
+
+   
+    public void Disable()
+    {
+        foreach (var i1 in responseButton)
+        {
+           
+            i1.isTwittChoose.RemoveListener(SetRickyTwitt);
+            i1.gameObject.SetActive(false);
+        }
+    }
+
     private void SetRickyTwitt(RickTwittSO rickTwittSo)
     {
         onTwittChoosed.Invoke(rickTwittSo);

@@ -18,8 +18,11 @@ public class GameManager : MonoBehaviour
     public int currentRep = 50; // Initialize currentRep to 50
     private bool lost = false;
     public EndingSelector endingSelector;
-    public List<Tendency> tendencies;
+
     public string SceneName;
+    public List<Tendency> allTendencies;
+
+    
     void Start()
     {
         //// End game logic
@@ -27,13 +30,43 @@ public class GameManager : MonoBehaviour
 
         //// Print information to the console
         //PrintInformation();
+        foreach (var tendency in allTendencies)
+        {
+            tendency.hasBeenTwitted = false;
+            foreach (var twitt in tendency.relatedTweets)
+            {
+               twitt.Reset(); 
+            }
+
+            foreach (var rickTwittSo in tendency.possibleResponses)
+            {
+                foreach (var respondTwitt in rickTwittSo.posibleTwitts)
+                {
+                    respondTwitt.Reset();
+                }
+            }
+        }
+
+      
     }
 
     private void OnDisable()
     {
-        foreach (var tendency in tendencies)
+        foreach (var tendency in allTendencies)
         {
             tendency.hasBeenTwitted = false;
+            foreach (var twitt in tendency.relatedTweets)
+            {
+                twitt.Reset(); 
+            }
+
+            foreach (var rickTwittSo in tendency.possibleResponses)
+            {
+                foreach (var respondTwitt in rickTwittSo.posibleTwitts)
+                {
+                    respondTwitt.Reset();
+                }
+            }
         }
     }
 
