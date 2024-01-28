@@ -22,6 +22,7 @@ public class CanvasManager : MonoBehaviour
     [SerializeField] private CanvasGroup resultsScreenCanvas;
     [Header("Buttons")]
     [SerializeField] private Button openResponseButton;
+    [SerializeField] private Button openResultsButton;
 
     private RickTwittSO currentTwitt = null;
 
@@ -33,15 +34,26 @@ public class CanvasManager : MonoBehaviour
         SetCanvasVisibility(twittsInResponseCanvas, false);
         SetCanvasVisibility(resultsScreenCanvas, false);
         _tendencyManager.chooseTendency.AddListener(ShowTwittsInTendency);
+        _tendencyManager.activateEnding.AddListener(ActivateEnding);
         openResponseButton.onClick.AddListener(ShowSelectTwitt);
         _selectTwitt.onTwittChoosed.AddListener(ShowTwitsInResponse);
+        openResultsButton.onClick.AddListener(ShowResults);
+        resultScreen.onResultScreenEnd.AddListener(ShowTendencies);
     }
+
 
     private void OnDisable()
     {
+        _tendencyManager.activateEnding.RemoveListener(ActivateEnding);
         _tendencyManager.chooseTendency.RemoveListener(ShowTwittsInTendency);
         openResponseButton.onClick.RemoveListener(ShowSelectTwitt);
         _selectTwitt.onTwittChoosed.RemoveListener(ShowTwitsInResponse);
+        openResultsButton.onClick.RemoveListener(ShowResults);
+        resultScreen.onResultScreenEnd.RemoveListener(ShowTendencies);
+    }
+    private void ActivateEnding()
+    {
+        gameManager.GetEnding();
     }
 
     private void ShowTwittsInTendency()
@@ -78,6 +90,7 @@ public class CanvasManager : MonoBehaviour
         resultScreen.currentTwitt = _twittsInResponseManager.currentTwitt;
         resultScreen.currentTendency = _tendencyManager.currentTendency;
         resultScreen.SetFollowersRep(gameManager.currentSubs,gameManager.currentRep,gameManager.maxSubs);
+        resultScreen.StartStats();
     }
 
     private void ShowTendencies()

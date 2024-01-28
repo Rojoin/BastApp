@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -18,9 +19,10 @@ namespace DefaultNamespace
         [SerializeField] private Sprite arrowUp;
         [SerializeField] private Sprite arrowDown;
         [SerializeField] private TextMeshProUGUI followersNumber;
-        private UnityEvent onResultScreenShow;
+        [SerializeField] private float numberUntilChange = 2.3f;
+        public  UnityEvent onResultScreenEnd;
 
-        public void CheckResults()
+        private IEnumerator UpdateStats()
         {
             var previousRep = CurrentReputation;
             var previousFollowers = CurrentFollowers;
@@ -32,9 +34,14 @@ namespace DefaultNamespace
             var letter = CurrentFollowers >= maxFollowers ? "M" : "K";
             var follownumber = $"{CurrentFollowers}{letter}";
             followersNumber.text = follownumber;
-            onResultScreenShow.Invoke();
+            yield return new WaitForSeconds(numberUntilChange);
+            onResultScreenEnd.Invoke();
         }
 
+        public void StartStats()
+        {
+            StartCoroutine(UpdateStats());
+        }
         public void SetFollowersRep(int CurrentFollowers, int CurrentReputation, int MaxFollowers)
         {
             this.CurrentFollowers = CurrentFollowers;

@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     private bool lost = false;
     public EndingSelector endingSelector;
     public List<Tendency> tendencies;
+    public string SceneName;
     void Start()
     {
         //// End game logic
@@ -52,6 +53,7 @@ public class GameManager : MonoBehaviour
         }
 
         endingSelector.ending = Endings.LOST;
+        LevelManager.Instance.changeScene(SceneName);
     }
 
     void PrintInformation()
