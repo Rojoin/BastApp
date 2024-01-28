@@ -19,4 +19,5 @@ MonoBehaviour:
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  optionPrompt: Buena onda
   posibleTwitts: []

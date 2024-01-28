@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   userName: Ricky
   userIcon: {fileID: 0}
-  prompt: "@HATERDEKOSCU, NO ES QUE ME HAGA EL QUE TENGO LOS MISMOS RELOJES, \xA1REALMENTE
-    LOS TENGO! \xA1LA FORTALEZA NO SE CONFORMA CON IMITACIONES!"
+  prompt: "FELIZ CUMPLEA\xD1OS MARICON!!!! S\xD3PLAME BIEN LA VELA!!!!! JAJAJA"
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  optionPrompt: Picantearla
   posibleTwitts: []

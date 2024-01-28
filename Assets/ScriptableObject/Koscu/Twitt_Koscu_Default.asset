@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0ccf91412e948029167eacf111ff177, type: 3}
   m_Name: Twitt_Koscu_Default
   m_EditorClassIdentifier: 
-  userName: Pepito69
+  userName: Koscu
   userIcon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  prompt: Koscu te amo
+  prompt: "RIcky fort usaba dos relojes como el que tengo yo\u2026 si si el rosa
+    que sale en todos los videos\u2026 PUEDO MORIR EN PAZ. #KOSCU "
   imageTwitt: {fileID: 0}
   followPoints: 15
   repPoints: 45

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0ccf91412e948029167eacf111ff177, type: 3}
   m_Name: Twitt_Koscu_Default 1
   m_EditorClassIdentifier: 
-  userName: TuVieja2
+  userName: Mommo
   userIcon: {fileID: 21300000, guid: a678a41a87ee9eb4e83480839a33c59a, type: 3}
-  prompt: Koscu es un vende patria!!!
+  prompt: "Hoy cumpliria 56 a\xF1os el comandante Ricardo Fort. Gracias por tanto,
+    Ricky, siempre en nuestros corazones. #KOSCU "
   imageTwitt: {fileID: 21300000, guid: caf49732cd186164c87053f5fd4e796d, type: 3}
   followPoints: 15
   repPoints: 45

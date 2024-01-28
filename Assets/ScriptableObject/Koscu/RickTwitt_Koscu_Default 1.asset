@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   userName: Ricky
   userIcon: {fileID: 0}
-  prompt: "@HATERDEKOSCU, NO ES QUE ME HAGA EL QUE TENGO LOS MISMOS RELOJES, \xA1REALMENTE
-    LOS TENGO! \xA1LA FORTALEZA NO SE CONFORMA CON IMITACIONES!"
+  prompt: "@Mommo GRACIAS POR RECORDARME, MOMMO, PERO NO NECESITO TU GRATITUD DESDE
+    EL M\xC1S ALL\xC1. MI LEGADO HABLA POR S\xCD MISMO, BEB\xC9"
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  optionPrompt: Mala onda
   posibleTwitts: []

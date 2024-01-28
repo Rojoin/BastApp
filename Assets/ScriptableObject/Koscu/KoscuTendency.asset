@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tendencyName: Koscu
   relatedTweets:
+  - {fileID: 11400000, guid: 254cb08a7de22f44fb2bf3c5d7842926, type: 2}
   - {fileID: 11400000, guid: d5db0941a11dc5a41b3942f30737673a, type: 2}
   - {fileID: 11400000, guid: cde05a785a8f5ec40b98cac7840b9572, type: 2}
   - {fileID: 11400000, guid: 0836ac32955bf874d9a56ddec61f4cf2, type: 2}
