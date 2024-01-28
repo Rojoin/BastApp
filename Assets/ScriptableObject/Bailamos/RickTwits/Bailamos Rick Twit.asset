@@ -17,8 +17,8 @@ MonoBehaviour:
   prompt: BUENO ME VOY FUERA DEL TWITTER PORQUE PARECE QUE SE CONECTARON TODOS LOS
     PELOTUDOS JUNTOS. HABLEN ENTRE USTEDES A VER SI LLEGAN A UN ACUERDO
   imageTwitt: {fileID: 0}
-  followPoints: 0
-  repPoints: 0
+  followPoints: 300
+  repPoints: -5
   isLiked: 0
   isRetwitted: 0
   optionPrompt: Mala Onda

@@ -17,8 +17,10 @@ MonoBehaviour:
   prompt: "CUANTA HIPOCRES\xCDA ESCUCHO EL LA TELE... AUNQUE ME SIENTO MAL NO AGUANTO
     TANTA BASURA\u2026"
   imageTwitt: {fileID: 0}
-  followPoints: 0
-  repPoints: 0
+  followPoints: 300
+  repPoints: -5
+  isLiked: 0
+  isRetwitted: 0
   optionPrompt: Mala Onda
   posibleTwitts:
   - {fileID: 11400000, guid: ab2d079c51da65d49a6cba6e454c185c, type: 2}
