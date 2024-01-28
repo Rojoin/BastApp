@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 16cae135ee544d77b7e49b3ab30711e4, type: 3}
-  m_Name: Rick GranBrother Twit 2
+  m_Name: RickTwit Exentrisismo
   m_EditorClassIdentifier: 
   userName: Ricky
   userIcon: {fileID: 0}
-  prompt: Y LA PUTA MADRE QUE LA PARIO!!!!
+  prompt: QUE BUENA NOCHE POR DIOS!!!!...LAS COSAS SE VAN ACOMODANDO...SE VAN LOS
+    QUE SE TIENEN QUE IR Y SE QUEDAN LOS QUE SE TIENEN QUE QUEDAR.
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
-  optionPrompt: Random?
+  optionPrompt: Buena Onda
   posibleTwitts:
-  - {fileID: 11400000, guid: ce4030ca35bf44f45bddaeddee9072da, type: 2}
-  - {fileID: 11400000, guid: b476e09b965cf2f499b973d5be0ef442, type: 2}
-  - {fileID: 11400000, guid: 63e9010754ff5e64a8c0d7919857e552, type: 2}
+  - {fileID: 11400000, guid: e2431cad45ea98c48b90c04e9d61a5ee, type: 2}
+  - {fileID: 11400000, guid: 065a7b76027695947acc1d0889eae9ea, type: 2}
+  - {fileID: 11400000, guid: ab2d079c51da65d49a6cba6e454c185c, type: 2}

@@ -19,4 +19,7 @@ MonoBehaviour:
   followPoints: 0
   repPoints: 0
   optionPrompt: Mala Onda
-  posibleTwitts: []
+  posibleTwitts:
+  - {fileID: 11400000, guid: 64ab4360a48817448b3fe9fe781dd68f, type: 2}
+  - {fileID: 11400000, guid: 82973783aafaa114d9ee4320e30ff489, type: 2}
+  - {fileID: 11400000, guid: 63e9010754ff5e64a8c0d7919857e552, type: 2}

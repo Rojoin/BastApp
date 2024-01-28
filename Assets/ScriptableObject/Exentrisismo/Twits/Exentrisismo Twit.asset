@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0ccf91412e948029167eacf111ff177, type: 3}
-  m_Name: Response 4
+  m_Name: Exentrisismo Twit
   m_EditorClassIdentifier: 
-  userName: CRONICS
+  userName: PorQueEstaEnTendencias
   userIcon: {fileID: 0}
-  prompt: 'URGENTE: Encuentran posible que la IA de Ricky Fort haya tomado el usuario
-    de twitter @RickyFort'
+  prompt: derroches, tinelly, desodorante #EXCENTRICIDAD
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
