@@ -1,4 +1,5 @@
 ﻿using System;
+using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
@@ -11,6 +12,8 @@ public class CanvasManager : MonoBehaviour
     [SerializeField] private TendecyTwittManager _twittInTendencyManager;
     [SerializeField] private RickyTwittManager _twittsInResponseManager;
     [SerializeField] private TwittChooser _selectTwitt;
+    [SerializeField] private ResultScreen resultScreen;
+    [SerializeField] private GameManager gameManager;
     [Header("Canvas")]
     [SerializeField] private CanvasGroup tendencyCanvas;
     [SerializeField] private CanvasGroup twittsInTendecyCanvas;
@@ -65,6 +68,21 @@ public class CanvasManager : MonoBehaviour
         _twittsInResponseManager.gameObject.SetActive(true);
         _twittsInResponseManager.UpdateTwitts();
         _selectTwitt.gameObject.SetActive(false);
+    }
+
+    private void ShowResults()
+    {
+        SetCanvasVisibility(resultsScreenCanvas,true);
+        SetCanvasVisibility(twittsInResponseCanvas,false);
+        SetCanvasVisibility(tendencyCanvas,true);
+        resultScreen.currentTwitt = _twittsInResponseManager.currentTwitt;
+        resultScreen.currentTendency = _tendencyManager.currentTendency;
+        resultScreen.SetFollowersRep(gameManager.currentSubs,gameManager.currentRep,gameManager.maxSubs);
+    }
+
+    private void ShowTendencies()
+    {
+        SetCanvasVisibility(resultsScreenCanvas,false);
     }
 
     private void SetCanvasVisibility(CanvasGroup canvas, bool state)

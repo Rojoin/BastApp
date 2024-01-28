@@ -14,8 +14,8 @@ public class GameManager : MonoBehaviour
 {
     public int maxSubs = 100;
     public int repThreshold = 50;
-    private int currentSubs = 0;
-    private int currentRep = 50; // Initialize currentRep to 50
+    public int currentSubs = 0;
+    public int currentRep = 50; // Initialize currentRep to 50
     private bool lost = false;
     public EndingSelector endingSelector;
     public List<Tendency> tendencies;
