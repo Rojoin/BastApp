@@ -33,10 +33,12 @@ public class ContainerTwitt : MonoBehaviour
 
     private void OnValidate()
     {
-        ChangeTwitt();
+        if (_twittSo != null)
+        {
+            ChangeTwitt();
+        }
     }
 
-   
 
     public void ChangeTwitt()
     {

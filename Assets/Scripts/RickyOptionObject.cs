@@ -21,7 +21,7 @@ public class RickyOptionObject : MonoBehaviour
         isTwittChoose.Invoke(TwittSo);
     }
 
-    private void OnDestroy()
+    private void OnDisable()
     {
         isTwittChoose.RemoveAllListeners();
     }

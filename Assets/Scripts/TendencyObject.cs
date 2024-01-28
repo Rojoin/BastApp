@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -9,6 +10,8 @@ public class TendencyObject : MonoBehaviour
     [SerializeField] private Button button;
     [SerializeField] private TextMeshProUGUI tendencyText;
     [SerializeField] public UnityEvent<Tendency> isTendencyChoose;
+
+  
 
     private void Awake()
     {

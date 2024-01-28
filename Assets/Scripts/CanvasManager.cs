@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 
 public class CanvasManager : MonoBehaviour
@@ -16,8 +17,11 @@ public class CanvasManager : MonoBehaviour
     [SerializeField] private CanvasGroup selectTwittCanvas;
     [SerializeField] private CanvasGroup twittsInResponseCanvas;
     [SerializeField] private CanvasGroup resultsScreenCanvas;
+    [Header("Buttons")]
+    [SerializeField] private Button openResponseButton;
 
     private RickTwittSO currentTwitt = null;
+
     private void Awake()
     {
         SetCanvasVisibility(tendencyCanvas, true);
@@ -25,6 +29,16 @@ public class CanvasManager : MonoBehaviour
         SetCanvasVisibility(selectTwittCanvas, false);
         SetCanvasVisibility(twittsInResponseCanvas, false);
         SetCanvasVisibility(resultsScreenCanvas, false);
+        _tendencyManager.chooseTendency.AddListener(ShowTwittsInTendency);
+        openResponseButton.onClick.AddListener(ShowSelectTwitt);
+        _selectTwitt.onTwittChoosed.AddListener(ShowTwitsInResponse);
+    }
+
+    private void OnDisable()
+    {
+        _tendencyManager.chooseTendency.RemoveListener(ShowTwittsInTendency);
+        openResponseButton.onClick.RemoveListener(ShowSelectTwitt);
+        _selectTwitt.onTwittChoosed.RemoveListener(ShowTwitsInResponse);
     }
 
     private void ShowTwittsInTendency()
@@ -39,13 +53,17 @@ public class CanvasManager : MonoBehaviour
     private void ShowSelectTwitt()
     {
         SetCanvasVisibility(selectTwittCanvas, true);
+        _selectTwitt.gameObject.SetActive(true);
     }
-    private void ShowTwitsInResponse()
+
+    private void ShowTwitsInResponse(RickTwittSO currentRickyTwit)
     {
-        //use event to select currentTwitt
+        _twittsInResponseManager.currentTwitt = currentRickyTwit;
         SetCanvasVisibility(selectTwittCanvas, false);
         SetCanvasVisibility(twittsInResponseCanvas, true);
-        
+        _twittsInResponseManager.gameObject.SetActive(true);
+        _twittsInResponseManager.UpdateTwitts();
+        _selectTwitt.gameObject.SetActive(false);
     }
 
     private void SetCanvasVisibility(CanvasGroup canvas, bool state)

@@ -1,24 +1,33 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class TendencyManager : MonoBehaviour
 {
     [SerializeField] private List<TendencyObject> prefabTendecy;
-    [SerializeField] private Transform buttonHolder;
     public Tendency currentTendency;
+    public UnityEvent activateEnding;
+    public UnityEvent chooseTendency;
 
     private void Awake()
     {
-        foreach (var tendencyObject in prefabTendecy)
+        if (prefabTendecy.Count < 0)
         {
-            if (tendencyObject.tendecy.hasBeenTwitted)
+            activateEnding.Invoke();
+        }
+        else
+        {
+            foreach (var tendencyObject in prefabTendecy)
             {
-                Destroy(tendencyObject.gameObject);
-            }
-            else
-            {
-                tendencyObject.isTendencyChoose.AddListener(SetCurrentTendency);
+                if (tendencyObject.tendecy.hasBeenTwitted)
+                {
+                    Destroy(tendencyObject.gameObject);
+                }
+                else
+                {
+                    tendencyObject.isTendencyChoose.AddListener(SetCurrentTendency);
+                }
             }
         }
     }
@@ -26,5 +35,7 @@ public class TendencyManager : MonoBehaviour
     private void SetCurrentTendency(Tendency tendency)
     {
         currentTendency = tendency;
+        tendency.hasBeenTwitted = true;
+        chooseTendency.Invoke();
     }
 }
