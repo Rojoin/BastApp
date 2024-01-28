@@ -17,8 +17,8 @@ MonoBehaviour:
   prompt: "@Mommo GRACIAS POR RECORDARME, MOMMO, PERO NO NECESITO TU GRATITUD DESDE
     EL M\xC1S ALL\xC1. MI LEGADO HABLA POR S\xCD MISMO, BEB\xC9"
   imageTwitt: {fileID: 0}
-  followPoints: 0
-  repPoints: 0
+  followPoints: 500
+  repPoints: -5
   isLiked: 0
   isRetwitted: 0
   optionPrompt: Mala onda

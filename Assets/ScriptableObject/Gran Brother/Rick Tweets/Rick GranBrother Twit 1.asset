@@ -16,8 +16,8 @@ MonoBehaviour:
   userIcon: {fileID: 21300000, guid: 51d59ef2b2655114a966b3edd3a47c70, type: 3}
   prompt: ME ESTA AGARRANDO OTRA ULCERA. NO PUEDO VERLO MAS.....
   imageTwitt: {fileID: 0}
-  followPoints: 0
-  repPoints: 0
+  followPoints: 400
+  repPoints: -5
   isLiked: 0
   isRetwitted: 0
   optionPrompt: Mala Onda

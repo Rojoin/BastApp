@@ -17,8 +17,8 @@ MonoBehaviour:
   prompt: "@HATERDEKOSCU, NO ES QUE ME HAGA EL QUE TENGO LOS MISMOS RELOJES, \xA1REALMENTE
     LOS TENGO! \xA1LA FORTALEZA NO SE CONFORMA CON IMITACIONES!"
   imageTwitt: {fileID: 0}
-  followPoints: 0
-  repPoints: 0
+  followPoints: 200
+  repPoints: 5
   isLiked: 0
   isRetwitted: 0
   optionPrompt: Buena onda

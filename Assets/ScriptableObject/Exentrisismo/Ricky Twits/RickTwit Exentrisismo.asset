@@ -17,8 +17,10 @@ MonoBehaviour:
   prompt: QUE BUENA NOCHE POR DIOS!!!!...LAS COSAS SE VAN ACOMODANDO...SE VAN LOS
     QUE SE TIENEN QUE IR Y SE QUEDAN LOS QUE SE TIENEN QUE QUEDAR.
   imageTwitt: {fileID: 0}
-  followPoints: 0
-  repPoints: 0
+  followPoints: 200
+  repPoints: 5
+  isLiked: 0
+  isRetwitted: 0
   optionPrompt: Buena Onda
   posibleTwitts:
   - {fileID: 11400000, guid: e2431cad45ea98c48b90c04e9d61a5ee, type: 2}

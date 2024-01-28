@@ -16,8 +16,10 @@ MonoBehaviour:
   userIcon: {fileID: 0}
   prompt: "VOY A RE\xCDR... VOY A GOZAR... VIVIR MI VIDA... LA LA LA LA !!!!!"
   imageTwitt: {fileID: 0}
-  followPoints: 0
-  repPoints: 0
+  followPoints: 100
+  repPoints: -10
+  isLiked: 0
+  isRetwitted: 0
   optionPrompt: Random?
   posibleTwitts:
   - {fileID: 11400000, guid: e2431cad45ea98c48b90c04e9d61a5ee, type: 2}
