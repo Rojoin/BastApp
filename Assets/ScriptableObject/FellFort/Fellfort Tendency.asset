@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd81b3e0b72ab5744a2c38f7e5fb1ed3, type: 3}
+  m_Name: Fellfort Tendency
+  m_EditorClassIdentifier: 
+  tendencyName: FellFort
+  relatedTweets:
+  - {fileID: 11400000, guid: a2e1b5bfa73bc49449ea704ccfff3984, type: 2}
+  - {fileID: 11400000, guid: a5f3856498b64e84f9f1d657004d7aba, type: 2}
+  - {fileID: 11400000, guid: 41d1d3b1c7cc64343bd2b68ff2343d4d, type: 2}
+  - {fileID: 11400000, guid: 72694380142dee14dbb26c5d5a4c698d, type: 2}
+  possibleResponses:
+  - {fileID: 11400000, guid: 793e9236d8c207e4ca12c754d952bb6a, type: 2}
+  - {fileID: 11400000, guid: 6b88b9995ef81484c9e6a3b3a127c97b, type: 2}
+  - {fileID: 11400000, guid: 8a956911cc2bc8447bf77a0377e2272a, type: 2}
