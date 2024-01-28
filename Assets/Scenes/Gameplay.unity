@@ -1196,8 +1196,12 @@ PrefabInstance:
       value: TweetsInTendency
       objectReference: {fileID: 0}
     - target: {fileID: 2913434139748892350, guid: ae0229c89173183458a0918762257954, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -347.112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913434139748892350, guid: ae0229c89173183458a0918762257954, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -21.862427
+      value: -30.637405
       objectReference: {fileID: 0}
     - target: {fileID: 3733369038487639262, guid: ae0229c89173183458a0918762257954, type: 3}
       propertyPath: m_AnchorMax.y
