@@ -871,8 +871,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Programaci\xF3n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1d780b5c2f42234d9f2855aed221c5b, type: 2}
+  m_sharedMaterial: {fileID: -4212482776182975734, guid: f1d780b5c2f42234d9f2855aed221c5b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -896,7 +896,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 63.8
+  m_fontSize: 63.65
   m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1862,8 +1862,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: ' '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1d780b5c2f42234d9f2855aed221c5b, type: 2}
+  m_sharedMaterial: {fileID: -4212482776182975734, guid: f1d780b5c2f42234d9f2855aed221c5b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2628,8 +2628,20 @@ PrefabInstance:
       value: Ignacio Arrastua
       objectReference: {fileID: 0}
     - target: {fileID: 4074299308741398955, guid: d380d1e47d899264fa9620b8502d37a8, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f1d780b5c2f42234d9f2855aed221c5b, type: 2}
+    - target: {fileID: 4074299308741398955, guid: d380d1e47d899264fa9620b8502d37a8, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4212482776182975734, guid: f1d780b5c2f42234d9f2855aed221c5b, type: 2}
+    - target: {fileID: 4074299308741398955, guid: d380d1e47d899264fa9620b8502d37a8, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4286379263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074299308741398955, guid: d380d1e47d899264fa9620b8502d37a8, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3039,8 +3051,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Arte
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f1d780b5c2f42234d9f2855aed221c5b, type: 2}
+  m_sharedMaterial: {fileID: -4212482776182975734, guid: f1d780b5c2f42234d9f2855aed221c5b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
