@@ -15,7 +15,7 @@ MonoBehaviour:
   userName: FanDeRIKIIII
   userIcon: {fileID: 21300000, guid: 933884a8acd927048bd7e97aae7bfc1f, type: 3}
   prompt: '@RickyFort te banco ricky #MarrocGrande.'
-  imageTwitt: {fileID: 0}
+  imageTwitt: {fileID: 21300000, guid: eff4253edd7acad4b98dc2eb54ba2b05, type: 3}
   followPoints: 0
   repPoints: 0
   isLiked: 0

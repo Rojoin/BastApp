@@ -15,7 +15,7 @@ MonoBehaviour:
   userName: Blockchan30
   userIcon: {fileID: 21300000, guid: 80bc393ddb779ad4cbade169408dad91, type: 3}
   prompt: Have you tried this new GP-20 Crypto Bot for your trading yet? It's amazing!
-  imageTwitt: {fileID: 0}
+  imageTwitt: {fileID: 21300000, guid: 8f460fda5c1bd2941a2c9a840174d4c6, type: 3}
   followPoints: 5
   repPoints: 30
   isLiked: 0

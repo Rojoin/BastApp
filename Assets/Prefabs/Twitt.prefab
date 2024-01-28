@@ -42,7 +42,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 250, y: 350}
+  m_SizeDelta: {x: 250, y: 850}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5046755305733682052
 CanvasRenderer:
@@ -98,7 +98,7 @@ MonoBehaviour:
   userName: {fileID: 5458519621139974654}
   textContainer: {fileID: 3751576987013678823}
   imageTwitt: {fileID: 2454835705808280854}
-  _twittSo: {fileID: 11400000, guid: d5db0941a11dc5a41b3942f30737673a, type: 2}
+  _twittSo: {fileID: 11400000, guid: 8a956911cc2bc8447bf77a0377e2272a, type: 2}
   imageSpacing: 500
   defaultTwittSize: {x: 800, y: 350}
   isLikedButton: {fileID: 2727611587425072477}
@@ -168,8 +168,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "RIcky fort usaba dos relojes como el que tengo yo\u2026 si si el rosa
-    que sale en todos los videos\u2026 PUEDO MORIR EN PAZ. #KOSCU "
+  m_text: QUE CALOR!!!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f1d780b5c2f42234d9f2855aed221c5b, type: 2}
   m_sharedMaterial: {fileID: -4212482776182975734, guid: f1d780b5c2f42234d9f2855aed221c5b, type: 2}
@@ -196,7 +195,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42.65
+  m_fontSize: 113.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -468,7 +467,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Koscu
+  m_text: Ricky
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f1d780b5c2f42234d9f2855aed221c5b, type: 2}
   m_sharedMaterial: {fileID: -4212482776182975734, guid: f1d780b5c2f42234d9f2855aed221c5b, type: 2}
@@ -629,7 +628,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &5700630092186196412
 RectTransform:
   m_ObjectHideFlags: 0
@@ -647,7 +646,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0000076293945, y: -66}
-  m_SizeDelta: {x: 400, y: 400}
+  m_SizeDelta: {x: 600, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3822945925693809536
 CanvasRenderer:
@@ -677,7 +676,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 7904a1b83b9148948a544085921c3f41, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -853,7 +852,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d942c501f7dd5c54cb125be882e27cd7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e4942bc92dd664c4f9604e86a300f9d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

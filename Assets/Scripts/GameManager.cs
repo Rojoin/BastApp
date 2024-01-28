@@ -12,7 +12,7 @@ public enum Endings
 
 public class GameManager : MonoBehaviour
 {
-    public int maxSubs = 100;
+    public int maxSubs = 1000;
     public int repThreshold = 50;
     public int currentSubs = 0;
     public int currentRep = 50; // Initialize currentRep to 50
@@ -72,19 +72,23 @@ public class GameManager : MonoBehaviour
     public void GetEnding()
     {
         AudioManager.instance.StopCurrentTheme();
-        Debug.Log("END SUBS: " + currentSubs + ", END REP: " + currentRep);
+        Debug.Log("END SUBS: " + currentSubs + ", END REP: " + currentRep + "Max Subs" + maxSubs);
         if (IsGoodEnding())
         {
+            Debug.Log("GOOD ENDING");
+            Debug.Log(currentSubs >= maxSubs);
             AudioManager.instance.PlayTheme("GoodEnding");
             endingSelector.ending = Endings.MIAMI_ENDING;
         }
         else if (IsBadEnding())
         {
+            Debug.Log("BAD ENDING");
             AudioManager.instance.PlayTheme("CommanderEnding");
             endingSelector.ending = Endings.COMANDANTE_ENDING;
         }
         else if (Lost())
         {
+            Debug.Log("LOST");
             AudioManager.instance.PlayTheme("SkyEnding");
             endingSelector.ending = Endings.LOST;
         }

@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5867477427771163939
 RectTransform:
   m_ObjectHideFlags: 0
@@ -60,6 +60,9 @@ MonoBehaviour:
   - {fileID: 5385640661348130696}
   - {fileID: 9022178071745294273}
   - {fileID: 7041326396431695240}
+  onTwittChoosed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!222 &6263036702831343961
 CanvasRenderer:
   m_ObjectHideFlags: 0

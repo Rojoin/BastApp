@@ -268,7 +268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d08bfaa994855ae4783984080efe838e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSubs: 100
+  maxSubs: 1000
   repThreshold: 50
   currentSubs: 0
   currentRep: 50
