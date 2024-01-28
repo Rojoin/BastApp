@@ -52,7 +52,31 @@ MonoBehaviour:
     loop: 1
     source: {fileID: 0}
   - name: click
-    clip: {fileID: 8300000, guid: d318e2dbe83fda84f92dedca1ffe7a1d, type: 3}
+    clip: {fileID: 8300000, guid: 01c6809499ee4f0409d9d1dc732ad416, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: IncommingMessage
+    clip: {fileID: 8300000, guid: 7f652c55cbef94d419daaf795c919f02, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Like
+    clip: {fileID: 8300000, guid: f9567900f6303444d9518d51727e59c2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Retweet
+    clip: {fileID: 8300000, guid: 681f4eccf93efd54686ab368948bcc20, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Send
+    clip: {fileID: 8300000, guid: 562eff6e85b7b52428c10a9fec448d72, type: 3}
     volume: 1
     pitch: 1
     loop: 0
