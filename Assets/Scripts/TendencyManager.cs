@@ -37,5 +37,6 @@ public class TendencyManager : MonoBehaviour
         currentTendency = tendency;
         tendency.hasBeenTwitted = true;
         chooseTendency.Invoke();
+        FindObjectOfType<AudioManager>().Play("click");
     }
 }

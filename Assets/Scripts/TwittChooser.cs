@@ -22,5 +22,6 @@ public class TwittChooser : MonoBehaviour
     private void SetRickyTwitt(RickTwittSO rickTwittSo)
     {
         onTwittChoosed.Invoke(rickTwittSo);
+        FindObjectOfType<AudioManager>().Play("Send");
     }
 }

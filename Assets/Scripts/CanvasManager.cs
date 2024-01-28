@@ -54,6 +54,7 @@ public class CanvasManager : MonoBehaviour
     {
         SetCanvasVisibility(selectTwittCanvas, true);
         _selectTwitt.gameObject.SetActive(true);
+        FindObjectOfType<AudioManager>().Play("click");
     }
 
     private void ShowTwitsInResponse(RickTwittSO currentRickyTwit)

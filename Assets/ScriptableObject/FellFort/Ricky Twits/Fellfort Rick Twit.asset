@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   userName: Ricky
   userIcon: {fileID: 0}
-  prompt: "NO TE PREOCUPES, EL NUEVO TAMA\xD1O DEL MARROC VALE LA PENA! (BUENA ONDA)"
+  prompt: "NO TE PREOCUPES, EL NUEVO TAMA\xD1O DEL MARROC VALE LA PENA!"
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
