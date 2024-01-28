@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd81b3e0b72ab5744a2c38f7e5fb1ed3, type: 3}
   m_Name: ExentrisismoTendency
   m_EditorClassIdentifier: 
-  tendencyName: 
+  tendencyName: Excentrisimo
   relatedTweets:
   - {fileID: 11400000, guid: 7a7ddf6b425a63e4789b9c8c466eb051, type: 2}
   - {fileID: 11400000, guid: 03ff203cc8b4c3a4d88ef709233bb583, type: 2}
@@ -22,3 +22,4 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  hasBeenTwitted: 0
