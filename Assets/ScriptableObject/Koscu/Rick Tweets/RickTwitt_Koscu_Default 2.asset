@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: RickTwitt_Koscu_Default 2
   m_EditorClassIdentifier: 
   userName: Ricky
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: 51d59ef2b2655114a966b3edd3a47c70, type: 3}
   prompt: "FELIZ CUMPLEA\xD1OS MARICON!!!! S\xD3PLAME BIEN LA VELA!!!!! JAJAJA"
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0
   optionPrompt: Picantearla
   posibleTwitts:
   - {fileID: 11400000, guid: d3abd9f748b71e3479a74b38626ef1e5, type: 2}

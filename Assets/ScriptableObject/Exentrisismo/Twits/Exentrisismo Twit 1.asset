@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Exentrisismo Twit 1
   m_EditorClassIdentifier: 
   userName: Pinocho_23
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: 5a02d18c8a47e2e4b9b0518419dba41b, type: 3}
   prompt: "@MarceloTinnely no ten\xEDa ning\xFAn empacho en poner diez mil d\xF3lares
     para un musical, quiso hacer Jesucristo Superstar y lo fue. #EXCENTRICIDAD"
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0

@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: GranBrother Twit 2
   m_EditorClassIdentifier: 
   userName: Dalila_M
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: 683fbd6b20e3f9d41989efc981e2557d, type: 3}
   prompt: "Extra\xF1o cuando los realitys eran interesantes NO #GRAN BROTHER "
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0

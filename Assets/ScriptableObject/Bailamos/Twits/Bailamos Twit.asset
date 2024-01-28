@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Bailamos Twit
   m_EditorClassIdentifier: 
   userName: PorQueEstaEnTendencia
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: f9dde13478d04384d9660094c69873e1, type: 3}
   prompt: "Por la pelea entre Flavio Menzoda y Mat\xEDas Lal\xE9. #BAILAMOS "
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0

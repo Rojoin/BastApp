@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Fellfort Twit 3
   m_EditorClassIdentifier: 
   userName: VeggieFriend_
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: cdfbbee0c207e0049b92ce8ee9fbfb4c, type: 3}
   prompt: Naaa me cagaron el marroc. #FELLFORT
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0

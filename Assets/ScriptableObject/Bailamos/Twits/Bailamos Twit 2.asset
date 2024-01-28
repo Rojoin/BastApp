@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Bailamos Twit 2
   m_EditorClassIdentifier: 
   userName: "Mat\xEDasLal\xE9"
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: 9af13d7a117c7f240a671490b4583d1e, type: 3}
   prompt: "@FlavioMenzoda par\xE1 un poquito, que ac\xE1 estoy papito. #BAILAMOS "
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0

@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Response 1
   m_EditorClassIdentifier: 
   userName: RICKEEEEEE
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: 80bc393ddb779ad4cbade169408dad91, type: 3}
   prompt: "@RickyFort as\xED me gusta ricky DIBUJEEE"
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0

@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: Rick GranBrother Twit
   m_EditorClassIdentifier: 
   userName: Ricky
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: 51d59ef2b2655114a966b3edd3a47c70, type: 3}
   prompt: "Mono_Rabioso2, \xA1AGUANTE GRAN BROTHER! #GranBrother #AguanteLaEmoci\xF3n"
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0
   optionPrompt: Buena Onda
   posibleTwitts:
   - {fileID: 11400000, guid: e1223de5f23381e448620e5ba1b4e0b7, type: 2}

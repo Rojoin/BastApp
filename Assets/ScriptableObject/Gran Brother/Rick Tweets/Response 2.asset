@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Response 2
   m_EditorClassIdentifier: 
   userName: Verooohh
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: 222c802352dceaf44bfefefc3e175a4b, type: 3}
   prompt: "@RickyFort, \xBFEN SERIO NECESITAMOS TANTA AGRESI\xD3N? #CalmaPorFavor"
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0

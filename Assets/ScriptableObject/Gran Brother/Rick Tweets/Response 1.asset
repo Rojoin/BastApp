@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Response 1
   m_EditorClassIdentifier: 
   userName: El160NoPasaNunca
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: 9f92ceb4972c10c4787a2b7212e2a415, type: 3}
   prompt: '@RickyFort CUIDADO RICHI, QUE NO SE NOS LESIONE EL COMANDANTE.'
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0

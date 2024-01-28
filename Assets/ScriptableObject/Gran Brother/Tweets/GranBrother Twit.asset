@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: GranBrother Twit
   m_EditorClassIdentifier: 
   userName: PorQueEstaEnTendencias
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: f9dde13478d04384d9660094c69873e1, type: 3}
   prompt: Gran Brother, por lo que paso entre Furiosa y Juan. #GRAN BROTHER #Furiosa
     #Juansito
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0

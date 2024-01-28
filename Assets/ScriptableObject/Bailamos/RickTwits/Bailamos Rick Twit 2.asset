@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: Bailamos Rick Twit 2
   m_EditorClassIdentifier: 
   userName: Ricky
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: 51d59ef2b2655114a966b3edd3a47c70, type: 3}
   prompt: HOY ROJO CONTRA LA ENVIDIA...
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0
   optionPrompt: Random?
   posibleTwitts:
   - {fileID: 11400000, guid: 4b55c46f248e6064d9675961940bee5b, type: 2}

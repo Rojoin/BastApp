@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Response 2
   m_EditorClassIdentifier: 
   userName: YBueno
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: cb3037eea57577b45864b4569df62492, type: 3}
   prompt: "@RickyFort de algo hay que morir\u2026"
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0
