@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 16cae135ee544d77b7e49b3ab30711e4, type: 3}
-  m_Name: RickTwitt_Koscu_Default
+  m_Name: RickTwitt_Koscu_Default 2
   m_EditorClassIdentifier: 
   userName: Ricky
   userIcon: {fileID: 0}
-  prompt: "@HATERDEKOSCU, NO ES QUE ME HAGA EL QUE TENGO LOS MISMOS RELOJES, \xA1REALMENTE
-    LOS TENGO! \xA1LA FORTALEZA NO SE CONFORMA CON IMITACIONES!"
+  prompt: "FELIZ CUMPLEA\xD1OS MARICON!!!! S\xD3PLAME BIEN LA VELA!!!!! JAJAJA"
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
-  optionPrompt: Buena onda
-  posibleTwitts: []
+  optionPrompt: Picantearla
+  posibleTwitts:
+  - {fileID: 11400000, guid: d3abd9f748b71e3479a74b38626ef1e5, type: 2}
+  - {fileID: 11400000, guid: 44b4eb15f6d521741a584aa9541cb986, type: 2}
+  - {fileID: 11400000, guid: 61e0c27a169a26d44bfa20b3d9552491, type: 2}

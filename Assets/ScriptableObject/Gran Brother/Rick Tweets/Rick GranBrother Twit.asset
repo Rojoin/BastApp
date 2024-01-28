@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 16cae135ee544d77b7e49b3ab30711e4, type: 3}
-  m_Name: RickTwitt_Koscu_Default 1
+  m_Name: Rick GranBrother Twit
   m_EditorClassIdentifier: 
   userName: Ricky
   userIcon: {fileID: 0}
-  prompt: "@Mommo GRACIAS POR RECORDARME, MOMMO, PERO NO NECESITO TU GRATITUD DESDE
-    EL M\xC1S ALL\xC1. MI LEGADO HABLA POR S\xCD MISMO, BEB\xC9"
+  prompt: "Mono_Rabioso2, \xA1AGUANTE GRAN BROTHER! #GranBrother #AguanteLaEmoci\xF3n"
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
-  optionPrompt: Mala onda
+  optionPrompt: Buena Onda
   posibleTwitts: []

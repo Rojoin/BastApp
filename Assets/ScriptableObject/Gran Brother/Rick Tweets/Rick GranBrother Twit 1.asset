@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16cae135ee544d77b7e49b3ab30711e4, type: 3}
+  m_Name: Rick GranBrother Twit 1
+  m_EditorClassIdentifier: 
+  userName: Ricky
+  userIcon: {fileID: 0}
+  prompt: ME ESTA AGARRANDO OTRA ULCERA. NO PUEDO VERLO MAS.....
+  imageTwitt: {fileID: 0}
+  followPoints: 0
+  repPoints: 0
+  optionPrompt: Mala Onda
+  posibleTwitts: []

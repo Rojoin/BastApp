@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ccf91412e948029167eacf111ff177, type: 3}
+  m_Name: GranBrother Twit 1
+  m_EditorClassIdentifier: 
+  userName: Patito232
+  userIcon: {fileID: 0}
+  prompt: "\xBFQue paso entre Furiosa y Juan? #GRAN BROTHER "
+  imageTwitt: {fileID: 0}
+  followPoints: 0
+  repPoints: 0
