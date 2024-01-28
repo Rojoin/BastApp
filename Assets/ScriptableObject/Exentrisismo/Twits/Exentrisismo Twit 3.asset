@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Exentrisismo Twit 3
   m_EditorClassIdentifier: 
   userName: K_Elephant
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: eff4253edd7acad4b98dc2eb54ba2b05, type: 3}
   prompt: Increible el nuevo auto de @MarceloTinelly #EXCENTRICIDAD
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0

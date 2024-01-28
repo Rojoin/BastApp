@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Twitt_Koscu_Default 3
   m_EditorClassIdentifier: 
   userName: PorQueEsTendencia
-  userIcon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  userIcon: {fileID: 21300000, guid: f9dde13478d04384d9660094c69873e1, type: 3}
   prompt: "Koscu, porque coment\xF3 sobre los relojes del comandante y los suyos.
     #KOSCU "
   imageTwitt: {fileID: 0}
   followPoints: 15
   repPoints: 45
+  isLiked: 0
+  isRetwitted: 0

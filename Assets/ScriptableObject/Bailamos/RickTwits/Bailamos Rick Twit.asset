@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: Bailamos Rick Twit
   m_EditorClassIdentifier: 
   userName: Ricky
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: 51d59ef2b2655114a966b3edd3a47c70, type: 3}
   prompt: BUENO ME VOY FUERA DEL TWITTER PORQUE PARECE QUE SE CONECTARON TODOS LOS
     PELOTUDOS JUNTOS. HABLEN ENTRE USTEDES A VER SI LLEGAN A UN ACUERDO
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0
   optionPrompt: Mala Onda
   posibleTwitts:
   - {fileID: 11400000, guid: c17efff00b6a4f74abdd70264fcd6cfd, type: 2}

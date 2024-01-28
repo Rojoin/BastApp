@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Bailamos Twit 1
   m_EditorClassIdentifier: 
   userName: FlavioMenzoda
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: 43a93b7517b57c0468cdbeb07b44f690, type: 3}
   prompt: "Entre mi pesta\xF1a postiza y el delineador azul de \xE9l nos miramos
     y nos tiramos dagas. C\xF3mo te cuidan todos. Si no te iba a pegar. Iba solamente
     a bailar con vos. #BAILAMOS  #VERG\xDCENZA"
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0

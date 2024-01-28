@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Exentrisismo Twit 2
   m_EditorClassIdentifier: 
   userName: Teatro_MDQ
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: 7a2c8e69c9455cb4586ea6dde643b7f5, type: 3}
   prompt: "Las nuevas obras de teatro m\xE1s importantes de La Feliz, \u201DLa explosi\xF3n
     en la TV\u201D y \u201CLos hijos y sus otros amores\u201D se estrenar\xE1n este
     fin de semana. #EXCENTRICIDAD"
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0

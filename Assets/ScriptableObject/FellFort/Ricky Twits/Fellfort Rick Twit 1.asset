@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: Fellfort Rick Twit 1
   m_EditorClassIdentifier: 
   userName: Ricky
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: 51d59ef2b2655114a966b3edd3a47c70, type: 3}
   prompt: "\xBFEN SERIO CREES QUE ALGUIEN SE PREOCUPA POR EL TAMA\xD1O DE TU MARROC?"
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0
   optionPrompt: Mala Onda
   posibleTwitts:
   - {fileID: 11400000, guid: aa7f7d51dea36d54fbc62d3b70c4ca81, type: 2}

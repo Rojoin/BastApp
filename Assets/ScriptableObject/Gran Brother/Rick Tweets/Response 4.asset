@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Response 4
   m_EditorClassIdentifier: 
   userName: CRONICS
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: 8a7e5aa335206f242a8ba8d644141eaf, type: 3}
   prompt: 'URGENTE: Encuentran posible que la IA de Ricky Fort haya tomado el usuario
     de twitter @RickyFort'
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0

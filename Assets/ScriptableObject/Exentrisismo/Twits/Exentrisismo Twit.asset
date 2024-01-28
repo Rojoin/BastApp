@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Exentrisismo Twit
   m_EditorClassIdentifier: 
   userName: PorQueEstaEnTendencias
-  userIcon: {fileID: 0}
+  userIcon: {fileID: 21300000, guid: f9dde13478d04384d9660094c69873e1, type: 3}
   prompt: derroches, tinelly, desodorante #EXCENTRICIDAD
   imageTwitt: {fileID: 0}
   followPoints: 0
   repPoints: 0
+  isLiked: 0
+  isRetwitted: 0
